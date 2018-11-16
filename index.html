@@ -5,8 +5,121 @@
     <title>HTML Academy: Девайс</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
-
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="logo"><b>DEVICE</b></a>
+        <div class="box-search">
+          <form class="form-search" action="#" method="post">
+            <p>
+              <label class="visually-hidden" for="search">Поиск по сайту</label>
+              <input class="search-site" type="text" id="search" name="search-site" placeholder="Поиск по сайту">
+            </p>
+            <button class="button-search" type="submit" name="button-search">Найти</button>
+          </form>
+        </div>
+        <ul class="user-navigation">
+          <li class="user-login">
+            <a class="login-link" href="#">Войти</a>
+          </li>
+        </ul>
+        <div class="compare">
+          <a href="#">Сравнить</a>
+        </div>
+        <div class="basket">
+          <a class="basket-link" href="#">Корзина</a>
+        </div>
+        <ul class="main-menu">
+          <li class="main-menu-item catalog">
+            <a href="catalog.html"><b>Каталог товаров</b></a>
+            <!-- <ul class="catalog-menu">
+              <li class="catalog-menu-item">
+                <a href="#">Виртуальная реальность</a>
+              </li>
+              <li class="catalog-menu-item">
+                <a href="catalog-monopod.html">Моноподы для селфи</a>
+              </li>
+              <li class="catalog-menu-item">
+                <a href="#">Экшн-камеры</a>
+              </li>
+              <li class="catalog-menu-item">
+                <a href="#">Фитнес-браслеты</a>
+              </li>
+              <li class="catalog-menu-item">
+                <a href="#">Умные часы</a>
+              </li>
+              <li class="catalog-menu-item">
+                <a href="#">Квадрокоптеры</a>
+              </li>
+            </ul> -->
+          </li>
+          <li class="main-menu-item">
+            <a href="#"><b>Доставка</b></a>
+          </li>
+          <li class="main-menu-item">
+            <a href="#"><b>Гарантия</b></a>
+          </li>
+          <li class="main-menu-item">
+            <a href="#"><b>Контакты</b></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 class="visually-hidden">Интернет магазин гаджетов "Девайс"</h1>
+      <section class="info">
+        <h2>О нас</h2>
+        <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
+        <p>Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:</p>
+        <ul class="carrier">
+          <li><b>Деловые Линии</b></li>
+          <li><b>Автотрейдинг</b></li>
+          <li><b>ЖелДорЭкспедиция</b></li>
+        </ul>
+        <a class="btn btn-carrier" href="#"><b>Подробнее о нас</b></a>
+      </section>
+      <section class="contacts">
+        <h2>Контакты</h2>
+        <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
+        <div class="map">
+          <img src="http://placehold.it/560x222" width="560" height="222" alt="Адрес магазина Девайс: город Москва, улица Строителей, дом 15">
+        </div>
+        <a class="btn btn-contacts" href="#"><b>Напишите нам</b></a>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <a class="logo"><b>DEVICE</b></a>
+      <ul class="user-navigation">
+        <li class="user-login">
+          <a class="login-link" href="#">Войти</a>
+        </li>
+      </ul>
+      <div class="compare">
+        <a href="#">Сравнить</a>
+      </div>
+      <div class="basket">
+        <a class="basket-link" href="#">Корзина</a>
+      </div>
+      <div class="navigation-footer">
+        <span class="address">г. Москва, ул. Строителей, 15</span>
+        <ul class="menu-footer">
+          <li class="menu-footer-item">
+            <a href="#"><b>Доставка</b></a>
+          </li>
+          <li class="menu-footer-item">
+            <a href="#"><b>Гарантия</b></a>
+          </li>
+          <li class="menu-footer-item">
+            <a href="#"><b>Контакты</b></a>
+          </li>
+        </ul>
+        <span class="telefon">Тел.: +7 (495) 495-95-95</span>
+      </div>
+      <ul class="footer-social">
+        <li class="footer-social-item"><a class="social social-fb" href="#">Фейсбук</a></li>
+        <li class="footer-social-item"><a class="social social-inst" href="#">Инстаграм</a></li>
+        <li class="footer-social-item"><a class="social social-tw" href="#">Твиттер</a></li>
+      </ul>
+      <a class="footer-copyright-icon" href="https://htmlacademy.ru/intensive/htmlcss"><img src="http://placehold.it/27x35" width="27" height="35" alt="Логотип HTML Academy"></a>
+    </footer>
   </body>
 </html>
