@@ -73,6 +73,71 @@
           <li class="breadcrumbs-item breadcrumbs-active">Моноподы для селфи</li>
         </ul>
       </div>
+      <section class="filter-product">
+        <h3>Фильтр:</h3>
+        <form class="filter" action="https://echo.htmlacademy.ru" method="post">
+          <fieldset>
+            <legend class="filter-title">Стоимость</legend>
+            <div class="min-max">
+              <!--Здесь будет ползунок-->
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend class="filter-title">Цвет</legend>
+            <ul class="color-list">
+              <li class="color-item">
+                <input class="visually-hidden" id="color-black" type="checkbox" name="black" checked>
+                <label for="color-black">Черный</label>
+              </li>
+              <li class="color-item">
+                <input class="visually-hidden" id="color-white" type="checkbox" name="white">
+                <label for="color-white">Белый</label>
+              </li>
+              <li class="color-item">
+                <input class="visually-hidden" id="color-blue" type="checkbox" name="blue" checked>
+                <label for="color-blue">Синий</label>
+              </li>
+              <li class="color-item">
+                <input class="visually-hidden" id="color-red" type="checkbox" name="red" checked>
+                <label for="color-red">Красный</label>
+              </li>
+              <li class="color-item">
+                <input class="visually-hidden" id="color-pink" type="checkbox" name="pink">
+                <label for="color-pink">Розовый</label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend class="filter-title">Bluetooth</legend>
+            <ul class="bluetooth-choice">
+              <li class="bluetooth-item">
+                <input class="visually-hidden" id="bluetooth-yes" type="radio" name="bluetooth" value="bluetooth-yes" checked>
+                <label for="bluetooth-yes">Есть</label>
+              </li>
+              <li class="bluetooth-item">
+                <input class="visually-hidden" id="bluetooth-no" type="radio" name="bluetooth" value="bluetooth-no">
+                <label for="bluetooth-no">Нет</label>
+              </li>
+            </ul>
+          </fieldset>
+          <button class="btn btn-filter" type="submit">Показать</button>
+        </form>
+      </section>
+      <section class="sorting-product">
+        <h3>Сортировка:</h3>
+        <form class="sorting" action="https://echo.htmlacademy.ru" method="post">
+          <input class="visually-hidden" id="price" type="radio" name="sorting" value="price" checked>
+          <label for="price">По цене</label>
+          <input class="visually-hidden" id="type" type="radio" name="sorting" value="type">
+          <label for="type">По типу</label>
+          <input class="visually-hidden" id="popularity" type="radio" name="sorting" value="popularity">
+          <label for="popularity">По популярности</label>
+          <input class="visually-hidden" id="ascending" type="radio" name="sorting-seriatim" value="ascending" checked>
+          <label class="visually-hidden" for="ascending">По возрастанию</label>
+          <input class="visually-hidden" id="descending" type="radio" name="sorting-seriatim" value="descending">
+          <label class="visually-hidden" for="descending">По убыванию</label>
+        </form>
+      </section>
       <section class="catalog-monopod">
         <h2 class="visually-hidden">Каталог моноподов</h2>
         <ul class="monopod-items">
@@ -138,6 +203,15 @@
           </li>
         </ul>
       </section>
+      <div class="pagination">
+        <ul class="pagination-list">
+          <li class="pagination-item pagination-disabled"><a><span class="visually-hidden">назад</span></a></li>
+          <li class="pagination-item pagination-active"><a><span class="visually-hidden">Перейти на страницу </span>1</a></li>
+          <li class="pagination-item"><a href="#"><span class="visually-hidden">Перейти на страницу </span>2</a></li>
+          <li class="pagination-item"><a href="#"><span class="visually-hidden">Перейти на страницу </span>3</a></li>
+          <li class="pagination-item"><a href="#"><span class="visually-hidden">вперед</span></a></li>
+        </ul>
+      </div>
     </main>
     <footer class="main-footer">
       <a class="logo"><b>DEVICE</b></a>
