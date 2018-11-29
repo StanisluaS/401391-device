@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'gilroyextrabold';
+    src: url('../fonts/gilroyextrabold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gilroylight';
+    src: url('../fonts/gilroylight.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  margin: 0;
+
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #464646;
+  letter-spacing: 0.01em;
+
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-header {
+  background-color: #f7e296;
+}
+
+.logo {
+  font-family: 'gilroyextrabold', Arial, sans-serif;
+  font-size: 48px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.logo:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.logo:focus {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.search-site {
+  font: inherit;
+  color: rgba(0, 0, 0, 0.3);
+  letter-spacing: inherit;
+
+  background-color: #f7e296;
+  border: none;
+}
+
+.search-site:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.search-site:focus {
+  color: #000000;
+
+  border-bottom-color: #000000;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  outline: none;
+}
+
+.search-site::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(0, 0, 0, 0.3);
+}
+.search-site::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(0, 0, 0, 0.3);
+}
+.search-site:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(0, 0, 0, 0.3);
+}
+.search-site:-moz-placeholder { /* Firefox 18- */
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.search-site:hover.search-site::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(0, 0, 0, 0.6);
+}
+.search-site:hover.search-site::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(0, 0, 0, 0.6);
+}
+.search-site:hover.search-site:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(0, 0, 0, 0.6);
+}
+.search-site:hover.search-site:-moz-placeholder { /* Firefox 18- */
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.button-search {
+  color: #000000;
+
+  background-color: none;
+  border-bottom-color: #000000;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+.navigation-header {
+  list-style: none;
+}
+
+.navigation-header a {
+  color: #000000;
+}
+
+.navigation-header a:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.navigation-header a:hover {
+  color: rgba(0, 0, 0, 0.3);
+}
