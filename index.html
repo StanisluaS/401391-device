@@ -10,7 +10,7 @@
   <body>
     <header class="main-header">
       <a class="logo">DEVICE</a>
-      <form class="form-search" action="#" method="post">
+      <form class="form-search" action="https://echo.htmlacademy.ru" method="post">
         <p>
           <label class="visually-hidden" for="search">Поиск по сайту</label>
           <input class="search-site" type="search" id="search" name="search-site" placeholder="Поиск по сайту">
@@ -224,29 +224,31 @@
           </li>
         </ul>
       </section>
-      <section class="info">
-        <h2>О нас</h2>
-        <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
-        <p>Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:</p>
-        <ul class="carrier">
-          <li>Деловые Линии</li>
-          <li>Автотрейдинг</li>
-          <li>ЖелДорЭкспедиция</li>
-        </ul>
-        <a class="btn btn-carrier" href="#">Подробнее о нас</a>
-      </section>
-      <section class="contacts">
-        <h2>Контакты</h2>
-        <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
-        <div class="map">
-          <a href="#"><img src="img/map.jpg" width="560" height="222" alt="Адрес магазина Девайс: город Москва, улица Строителей, дом 15"></a>
-        </div>
-        <a class="btn btn-contacts" href="#">Напишите нам</a>
-      </section>
+      <div class="index-columns">
+        <section class="info">
+          <h2>О нас</h2>
+          <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
+          <p>Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:</p>
+          <ul class="carrier">
+            <li>Деловые Линии</li>
+            <li>Автотрейдинг</li>
+            <li>ЖелДорЭкспедиция</li>
+          </ul>
+          <a class="btn btn-carrier" href="#">Подробнее о нас</a>
+        </section>
+        <section class="contacts">
+          <h2>Контакты</h2>
+          <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
+          <div class="map">
+            <a href="#"><img src="img/map.jpg" width="560" height="222" alt="Адрес магазина Девайс: город Москва, улица Строителей, дом 15"></a>
+          </div>
+          <a class="btn btn-contacts" href="#">Напишите нам</a>
+        </section>
+      </div>
     </main>
     <footer class="main-footer">
       <div class="footer-top">
-        <a class="logo">DEVICE</a>
+        <a class="logo-footer">DEVICE</a>
         <ul class="user-navigation">
           <li class="user-login">
             <a class="login-link" href="#">Войти</a>
@@ -287,7 +289,7 @@
     </footer>
     <section class="feedback">
       <h3 class="visually-hidden">Форма обратной связи</h3>
-      <button class="btn feedback-close" type="button">
+      <button class="feedback-close" type="button">
         <span class="visually-hidden">Закрыть форму обратной связи</span>
       </button>
       <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
@@ -303,7 +305,7 @@
           <label for="message">Текст письма:</label>
           <textarea id="message"  name="message" rows="8" cols="80" placeholder="В свободной форме"></textarea>
         </p>
-        <button type="submit" name="button">Отправить</button>
+        <button class="btn btn-submit" type="submit" name="button">Отправить</button>
       </form>
     </section>
     <div class="big-map">
