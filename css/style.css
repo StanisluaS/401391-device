@@ -40,8 +40,20 @@ a {
   text-align: center;
   vertical-align: middle;
 
+  background-color: transparent;
   background-image: linear-gradient(to bottom, transparent 0%, transparent 40%, #f0c52e 40%, #f0c52e 60%, transparent 60%, transparent 100%);
   border: none;
+}
+
+.btn:hover {
+  background-image: none;	
+  background-color: #f0c52e;	
+}
+
+.btn:focus {
+  background-image: none;	
+  background-color: #f0c52e;
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .main-header {
@@ -104,20 +116,14 @@ a {
 
 .button-search:focus {
   color: rgba(255, 255, 255, 0.3);
+  
+  background-color: #000000;
 }
 
 .navigation-header,
 .main-menu,
 .catalog-menu {
   list-style: none
-}
-
-.main-menu {
-  font-family: 'gilroyextrabold', Arial, sans-serif;
-  font-size: 18px;
-  line-height: 24px;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
 }
 
 .navigation-header a,
@@ -138,6 +144,14 @@ a {
   opacity: 0.3;
 }
 
+.main-menu {
+  font-family: 'gilroyextrabold', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
 .index-columns h2 {
   font-family: 'gilroyextrabold', Arial, sans-serif;
   font-size: 47px;
@@ -155,4 +169,168 @@ a {
   letter-spacing: normal;
 
   list-style: none;
+}
+
+.main-footer {
+  color: #ffffff;
+
+  background-color: #464646;  
+}
+
+.user-navigation,
+.menu-footer,
+.footer-social {
+  list-style: none;
+}
+
+.user-navigation a,
+.menu-footer a,
+.footer-social a,
+.footer-copyright-icon {
+  color: #ffffff;
+}
+
+.main-footer .logo {
+  color: #ffc600;
+}
+
+.user-navigation a {
+  opacity: 0.7;
+}
+
+.user-navigation a:hover {
+  opacity: 1;
+}
+
+.user-navigation a:focus {
+  opacity: 0.3;
+}
+
+a.exit-link {
+  opacity: 0.3;
+}
+
+.address,
+.telefon {
+  letter-spacing: normal;
+}
+
+.menu-footer {
+  font-family: 'gilroyextrabold', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.menu-footer a:hover {
+  opacity: 0.6;
+}
+
+.menu-footer a:focus {
+  opacity: 0.3;
+}
+
+.breadcrumbs-list {
+  list-style: none;
+}
+
+.breadcrumbs-list a,
+.breadcrumbs-active {
+  color: #000000;
+  font-size: 14px;
+  line-height: 24px;
+  
+  opacity: 0.3;
+}
+
+.breadcrumbs-list a:hover {
+  opacity: 0.6;
+}
+
+.breadcrumbs-list a:focus {
+  opacity: 0.1;
+}
+
+.filter-product {
+  background-color: #efefef;
+}
+
+.monopod-items,
+.choice-items {
+  list-style: none;
+}
+
+.monopod-item a {
+  color: #000000;
+}
+
+.monopod-item h3 {
+  font-family: 'gilroyextrabold', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.monopod-price {
+  font-family: 'gilroylight', Arial, sans-serif;
+  font-size: 16px;
+  color: #464646;
+  line-height: 24px;
+}
+
+.choice-compare {
+  font-size: 13px;
+  line-height: 36px;
+  
+  opacity: 0.5;
+}
+
+.choice-compare:hover {
+  opacity: 1;
+}
+
+.choice-compare:focus {
+  opacity: 0.2;
+}
+
+.pagination {
+  background-color: #ebebeb;
+}
+
+.pagination-list {
+  font-family: 'gilroyextrabold', Arial, sans-serif;
+  font-size: 16px;
+  color: #000000;
+  line-height: 24px;
+  text-transform: uppercase;
+	
+  list-style: none;
+}
+
+.pagination-item a {
+  color: #000000;
+}
+
+.back:not(.pagination-disabled) a:hover,
+.next:not(.pagination-disabled) a:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.back:not(.pagination-disabled) a:focus,
+.next:not(.pagination-disabled) a:focus {
+  background-color: rgba(0, 0, 0, 0.08);
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.page a {
+  opacity: 0.3;
+}
+
+.page:not(.pagination-active) a:hover {
+  opacity: 0.6;
+}
+
+.page a:focus,
+.pagination-active a{
+  opacity: 1;
 }
