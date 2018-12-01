@@ -46,14 +46,15 @@ a {
 }
 
 .btn:hover {
-  background-image: none;	
-  background-color: #f0c52e;	
+  background-image: none;
+  background-color: #f0c52e;
 }
 
 .btn:focus {
-  background-image: none;	
-  background-color: #f0c52e;
   color: rgba(0, 0, 0, 0.3);
+
+  background-image: none;
+  background-color: #f0c52e;
 }
 
 .main-header {
@@ -65,8 +66,8 @@ a {
 .logo {
   font-family: 'gilroyextrabold', Arial, sans-serif;
   font-size: 48px;
-  line-height: 48px;
   color: #000000;
+  line-height: 48px;
 
   background-color: transparent;
 }
@@ -116,7 +117,7 @@ a {
 
 .button-search:focus {
   color: rgba(255, 255, 255, 0.3);
-  
+
   background-color: #000000;
 }
 
@@ -152,6 +153,114 @@ a {
   text-transform: uppercase;
 }
 
+.catalog-menu {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.01em;
+  line-height: 36px;
+  text-transform: none;
+}
+
+.sliders {
+  background-image: linear-gradient(to bottom, #f7e296 0px, #f7e296 130px, #ffffff 130px, #ffffff 100%);
+
+}
+
+.slider-list {
+  list-style: none;
+}
+
+.slider-title {
+  font-family: 'gilroyextrabold', Arial, sans-serif;
+  font-size: 47px;
+  line-height: 56px;
+}
+
+.number {
+  font-family: 'gilroyextrabold', Arial, sans-serif;
+  font-size: 179.2px;
+  /* color: #ffffff; */
+  line-height: 179.2px;
+}
+
+.slider-item p {
+  color: #464646;
+}
+
+.slider-table-header th {
+  font-size: 13px;
+  font-weight: 300;
+  color: #464646;
+  line-height: 20px;
+}
+
+.slider-data td {
+  font-family: 'gilroylight', Arial, sans-serif;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.main-catalog-list {
+  font-family: 'gilroyextrabold', Arial, sans-serif;
+  font-size: 18px;
+  color: #000000;
+  line-height: 24px;
+
+  list-style: none;
+}
+
+.control-list {
+  list-style: none;
+}
+
+.main-catalog-item a {
+  color: #000000;
+}
+
+.main-catalog-item a:focus {
+  opacity: 0.3;
+}
+
+.service {
+  background-image: linear-gradient(to bottom, transparent 0, transparent 100px, #e5e5e5 100px, #e5e5e5 100%);
+}
+
+.service-description,
+.service-switch {
+  list-style: none;
+}
+
+.description-item h3 {
+  font-family: 'gilroyextrabold', Arial, sans-serif;
+  font-size: 47px;
+  line-height: 48px;
+}
+
+.description-item p {
+  color: #464646;
+}
+
+.switch-active .btn-switch,
+.switch-active .btn-switch:hover,
+.btn-switch:focus {
+  color: #f7e184;
+
+  background-color: #000000;
+  background-image: none;
+}
+
+.brand-list {
+  list-style: none;
+}
+
+.brand-item img {
+  filter: grayscale(1);
+}
+
+.brand-item img:hover {
+  filter: grayscale(0);
+}
+
 .index-columns h2 {
   font-family: 'gilroyextrabold', Arial, sans-serif;
   font-size: 47px;
@@ -174,7 +283,7 @@ a {
 .main-footer {
   color: #ffffff;
 
-  background-color: #464646;  
+  background-color: #464646;
 }
 
 .user-navigation,
@@ -231,16 +340,22 @@ a.exit-link {
   opacity: 0.3;
 }
 
+.page-title {
+  font-family: 'gilroyextrabold', Arial, sans-serif;
+  font-size: 47px;
+  line-height: 48px;
+}
+
 .breadcrumbs-list {
   list-style: none;
 }
 
 .breadcrumbs-list a,
 .breadcrumbs-active {
-  color: #000000;
   font-size: 14px;
+  color: #000000;
   line-height: 24px;
-  
+
   opacity: 0.3;
 }
 
@@ -254,6 +369,86 @@ a.exit-link {
 
 .filter-product {
   background-color: #efefef;
+}
+
+.filter-product h3 {
+  font-family: 'gilroyextrabold', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+  background-color: #dcdcdc;
+}
+
+.filter fieldset {
+  border: none;
+}
+
+.filter-title {
+  font-family: 'gilroyextrabold', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.color-list,
+.bluetooth-choice {
+  list-style: none;
+}
+
+.color-input + label,
+.bluetooth-input + label {
+  font-size: 14px;
+  line-height: 40px;
+}
+
+.color-input:disabled + label,
+.bluetooth-input:disabled + label {
+  opacity: 0.25;
+}
+
+.sorting-product {
+  background-color: #ebebeb;
+}
+
+.sorting-product h3 {
+  font-family: 'gilroyextrabold', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.sorting,
+.sorting-seriatim {
+  list-style: none;
+}
+
+.sorting {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: normal;
+}
+
+.sorting a {
+  color: #000000;
+
+  opacity: 0.3;
+}
+
+.sorting a:hover {
+  opacity: 0.6;
+}
+
+.sorting a:focus {
+  opacity: 1;
+}
+
+.sorting-active a,
+.sorting-active a:hover,
+.sorting-active a:focus {
+  opacity: 1;
 }
 
 .monopod-items,
@@ -281,7 +476,7 @@ a.exit-link {
 .choice-compare {
   font-size: 13px;
   line-height: 36px;
-  
+
   opacity: 0.5;
 }
 
@@ -303,7 +498,7 @@ a.exit-link {
   color: #000000;
   line-height: 24px;
   text-transform: uppercase;
-	
+
   list-style: none;
 }
 
@@ -311,26 +506,76 @@ a.exit-link {
   color: #000000;
 }
 
-.back:not(.pagination-disabled) a:hover,
-.next:not(.pagination-disabled) a:hover {
+.back a:hover,
+.next a:hover {
   background-color: rgba(0, 0, 0, 0.08);
 }
 
-.back:not(.pagination-disabled) a:focus,
-.next:not(.pagination-disabled) a:focus {
-  background-color: rgba(0, 0, 0, 0.08);
+.back a:focus,
+.next a:focus {
   color: rgba(0, 0, 0, 0.3);
+
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.pagination-disabled a:hover,
+.pagination-disabled a:focus {
+  color: #000000;
+
+  background-color: transparent;
 }
 
 .page a {
   opacity: 0.3;
 }
 
-.page:not(.pagination-active) a:hover {
+.page a:hover {
   opacity: 0.6;
 }
 
 .page a:focus,
-.pagination-active a{
+.pagination-active a,
+.pagination-active a:hover,
+.pagination-active a:focus{
   opacity: 1;
+}
+
+.feedback-form label {
+  font-family: 'gilroyextrabold', Arial, sans-serif;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: normal;
+  line-height: 24px;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(70, 70, 70, 0.4);
+  letter-spacing: normal;
+  line-height: 18px;
+
+  background-color: rgba(229, 229, 229, 0.5);
+  border: none;
+}
+
+.feedback-form input:hover,
+.feedback-form textarea:hover {
+  background-color: rgba(229, 229, 229, 0.8);
+}
+
+.feedback-form input:focus,
+.feedback-form textarea:focus {
+  color: #464646;
+
+  background-color: #ffffff;
+  outline-color: #f0c52e;
+  outline-width: 3px;
+}
+
+.feedback-form input:invalid,
+.feedback-form textarea:invalid {
+  background-color: rgba(237, 181, 181, 0.5);
 }
