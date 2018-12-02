@@ -12,6 +12,13 @@
     font-style: normal;
 }
 
+.catalog-menu,
+.feedback,
+.big-map,
+.choice-items {
+  display: none;
+}
+
 body {
   margin: 0;
 
@@ -301,6 +308,10 @@ a {
 
 .main-footer .logo {
   color: #ffc600;
+}
+
+.user-navigation {
+  line-height: 36px;
 }
 
 .user-navigation a {
