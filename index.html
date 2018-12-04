@@ -8,63 +8,67 @@
     <link href="css/normalize.css" rel="stylesheet">
   </head>
   <body>
-    <header class="main-header">
-      <a class="logo">DEVICE</a>
-      <form class="form-search" action="https://echo.htmlacademy.ru" method="post">
-        <p>
-          <label class="visually-hidden" for="search">Поиск по сайту</label>
-          <input class="search-site" type="search" id="search" name="search-site" placeholder="Поиск по сайту">
-        </p>
-        <button class="button-search" type="submit" name="button-search">Найти</button>
-      </form>
-      <ul class="navigation-header">
-        <li class="user-login">
-          <a class="login-link" href="#">Войти</a>
-        </li>
-        <li class="compare">
-          <a href="#">Сравнить</a>
-        </li>
-        <li class="basket">
-          <a class="basket-link" href="#">Корзина</a>
-        </li>
-      </ul>
-      <nav class="main-navigation">
-        <ul class="main-menu">
-          <li class="main-menu-item catalog">
-            <a href="catalog.html">Каталог товаров</a>
-            <ul class="catalog-menu">
-              <li class="catalog-menu-item">
-                <a href="#">Виртуальная реальность</a>
-              </li>
-              <li class="catalog-menu-item">
-                <a href="catalog-monopods.html">Моноподы для селфи</a>
-              </li>
-              <li class="catalog-menu-item">
-                <a href="#">Экшн-камеры</a>
-              </li>
-              <li class="catalog-menu-item">
-                <a href="#">Фитнес-браслеты</a>
-              </li>
-              <li class="catalog-menu-item">
-                <a href="#">Умные часы</a>
-              </li>
-              <li class="catalog-menu-item">
-                <a href="#">Квадрокоптеры</a>
-              </li>
-            </ul>
-          </li>
-          <li class="main-menu-item">
-            <a href="#">Доставка</a>
-          </li>
-          <li class="main-menu-item">
-            <a href="#">Гарантия</a>
-          </li>
-          <li class="main-menu-item">
-            <a href="#">Контакты</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <div class="container">
+      <header class="main-header">
+        <a class="logo">DEVICE</a>
+        <div class="header-row">
+          <form class="form-search" action="https://echo.htmlacademy.ru" method="post">
+            <p>
+              <label class="visually-hidden" for="search">Поиск по сайту</label>
+              <input class="search-site" type="search" id="search" name="search-site" placeholder="Поиск по сайту">
+            </p>
+            <button class="button-search" type="submit" name="button-search">Найти</button>
+          </form>
+          <ul class="navigation-header">
+            <li class="user-login">
+              <a class="login-link" href="#">Войти</a>
+            </li>
+            <li class="compare">
+              <a href="#">Сравнить</a>
+            </li>
+            <li class="basket">
+              <a class="basket-link" href="#">Корзина</a>
+            </li>
+          </ul>
+        </div>
+        <nav class="main-navigation">
+          <ul class="main-menu">
+            <li class="main-menu-item catalog">
+              <a href="catalog.html">Каталог товаров</a>
+              <ul class="catalog-menu">
+                <li class="catalog-menu-item">
+                  <a href="#">Виртуальная реальность</a>
+                </li>
+                <li class="catalog-menu-item">
+                  <a href="catalog-monopods.html">Моноподы для селфи</a>
+                </li>
+                <li class="catalog-menu-item">
+                  <a href="#">Экшн-камеры</a>
+                </li>
+                <li class="catalog-menu-item">
+                  <a href="#">Фитнес-браслеты</a>
+                </li>
+                <li class="catalog-menu-item">
+                  <a href="#">Умные часы</a>
+                </li>
+                <li class="catalog-menu-item">
+                  <a href="#">Квадрокоптеры</a>
+                </li>
+              </ul>
+            </li>
+            <li class="main-menu-item">
+              <a href="#">Доставка</a>
+            </li>
+            <li class="main-menu-item">
+              <a href="#">Гарантия</a>
+            </li>
+            <li class="main-menu-item">
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
     <main>
       <h1 class="visually-hidden">Интернет магазин гаджетов "Девайс"</h1>
       <section class="sliders">
