@@ -857,14 +857,14 @@ a {
 
 .brand-item img {
   opacity: 0.2;
-  filter: grayscale(1);
   -webkit-filter: grayscale(1);
+  filter: grayscale(1);
 }
 
 .brand-item img:hover {
   opacity: 1;
-  filter: grayscale(0);
   -webkit-filter: grayscale(0);
+  filter: grayscale(0);
 }
 
 .index-columns {
