@@ -614,7 +614,7 @@ a {
   margin-right: 21px;
   display: inline-block;
 
-  font-size: 0px;
+  vertical-align: middle;
 }
 
 .control-item:last-child {
@@ -1412,6 +1412,8 @@ margin-left: auto;
 .sorting-descending {
   display: inline-block;
   margin-left: 16px;
+
+  vertical-align: middle;
 }
 
 .sorting-ascending a,
