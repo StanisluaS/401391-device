@@ -13,10 +13,8 @@
         <a class="logo">DEVICE</a>
         <div class="header-row">
           <form class="form-search" action="https://echo.htmlacademy.ru" method="post">
-            <p>
-              <label class="visually-hidden" for="search">Поиск по сайту</label>
-              <input class="search-site" type="search" id="search" name="search-site" placeholder="Поиск по сайту">
-            </p>
+            <label class="visually-hidden" for="search">Поиск по сайту</label>
+            <input class="search-site" type="search" id="search" name="search-site" placeholder="Поиск по сайту">
             <button class="button-search" type="submit" name="button-search">Найти</button>
           </form>
           <ul class="navigation-header">
@@ -32,8 +30,8 @@
           </ul>
         </div>
         <nav class="main-navigation">
-          <ul class="main-menu">
-            <li class="main-menu-item catalog">
+          <ul class="main-catalog">
+            <li class="main-catalog-item catalog">
               <a href="catalog.html">Каталог товаров</a>
               <div class="catalog-column">
                 <ul class="catalog-menu">
@@ -62,6 +60,8 @@
                 </ul>
               </div>
             </li>
+          </ul>
+          <ul class="main-menu">
             <li class="main-menu-item">
               <a href="#">Доставка</a>
             </li>
@@ -165,7 +165,7 @@
             </li>
           </ul>
         </section>
-        <section class="main-catalog">
+        <section>
           <h2 class="visually-hidden">Каталог товаров</h2>
           <ul class="main-catalog-list">
             <li class="main-catalog-item">
@@ -316,7 +316,7 @@
       </div>
 	</div>
     </footer>
-    <section class="feedback">
+    <section class="feedback hidden">
       <h3 class="visually-hidden">Форма обратной связи</h3>
       <button class="feedback-close" type="button">
         <span class="visually-hidden">Закрыть форму обратной связи</span>
@@ -330,14 +330,14 @@
           <label for="email">Ваш e-mail:</label>
           <input id="email" type="email" name="email" placeholder="email@example.com">
         </p>
-        <p>
+        <p class="feedback-message">
           <label for="message">Текст письма:</label>
-          <textarea id="message"  name="message" rows="8" cols="80" placeholder="В свободной форме"></textarea>
+          <textarea id="message"  name="message" rows="6" cols="80" placeholder="В свободной форме"></textarea>
         </p>
         <button class="btn btn-submit" type="submit" name="button">Отправить</button>
       </form>
     </section>
-    <div class="big-map">
+    <div class="big-map hidden">
       <img src="img/big-map.jpg" width="960" height="559" alt="Адрес магазина Девайс: город Москва, улица Строителей, дом 15">
       <button class="btn-big-map" type="button"><span class="visually-hidden">Закрыть карту</span></button>
     </div>
