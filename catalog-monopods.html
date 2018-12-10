@@ -119,8 +119,9 @@
               <div class="filter-item">
                 <h4 class="filter-title">Стоимость</h4>
                 <div class="min-max">
-    			  <button class="min" type="button"><span class="visually-hidden">левый ползунок</span></button>
-                  <button class="max" type="button"><span class="visually-hidden">правый ползунок</span></button>
+    			        <button class="min" type="button"><span class="visually-hidden">левый ползунок</span>от 0</button>
+                  <span class="line-green"></span>
+                  <button class="max" type="button"><span class="visually-hidden">правый ползунок</span>до 5000</button>
                 </div>
               </div>
               <div class="filter-item">
@@ -225,9 +226,13 @@
             <div class="pagination">
               <ul class="pagination-list">
                 <li class="pagination-item back pagination-disabled"><a>назад</a></li>
-                <li class="pagination-item page pagination-active"><a><span class="visually-hidden">Перейти на страницу </span>1</a></li>
-                <li class="pagination-item page"><a href="#"><span class="visually-hidden">Перейти на страницу </span>2</a></li>
-                <li class="pagination-item page"><a href="#"><span class="visually-hidden">Перейти на страницу </span>3</a></li>
+                <li>
+                  <ul class="page-list">
+                    <li class="pagination-item page pagination-active"><a><span class="visually-hidden">Перейти на страницу </span>1</a></li>
+                    <li class="pagination-item page"><a href="#"><span class="visually-hidden">Перейти на страницу </span>2</a></li>
+                    <li class="pagination-item page"><a href="#"><span class="visually-hidden">Перейти на страницу </span>3</a></li>
+                  </ul>
+                </li>
                 <li class="pagination-item next"><a href="#">вперед</a></li>
               </ul>
             </div>
