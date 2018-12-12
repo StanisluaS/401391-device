@@ -10,28 +10,32 @@
   <body>
     <div class="container">
       <header class="main-header">
-        <a class="logo">DEVICE</a>
+        <a class="logo" href="index.html">DEVICE</a>
         <div class="header-row">
-          <form class="form-search" action="https://echo.htmlacademy.ru" method="post">
+          <form class="form-search" action="#" method="post">
             <label class="visually-hidden" for="search">Поиск по сайту</label>
             <input class="search-site" type="search" id="search" name="search-site" placeholder="Поиск по сайту">
             <button class="button-search" type="submit" name="button-search">Найти</button>
           </form>
-          <ul class="navigation-header">
-            <li class="user-login">
-              <a class="login-link" href="#">Войти</a>
-            </li>
-            <li class="compare">
-              <a class="compare-link" href="#">Сравнить</a>
-            </li>
-            <li class="basket">
-              <a class="basket-link" href="#">Корзина</a>
-            </li>
-          </ul>
+          <div class="navigation-header">
+            <ul class="navigation-user-list">
+              <li class="user-login">
+                <a class="login-link" href="#">Войти</a>
+              </li>
+            </ul>
+            <ul class="product-selection">
+              <li class="compare">
+                <a class="compare-link" href="#">Сравнить</a>
+              </li>
+              <li class="basket">
+                <a class="basket-link" href="#">Корзина</a>
+              </li>
+            </ul>
+          </div>
         </div>
         <nav class="main-navigation">
           <ul class="main-catalog">
-            <li class="catalog">
+            <li class="main-catalog-item catalog">
               <a href="catalog.html">Каталог товаров</a>
               <div class="catalog-column">
                 <ul class="catalog-menu">
@@ -61,17 +65,21 @@
               </div>
             </li>
           </ul>
-          <ul class="main-menu">
-            <li class="main-menu-item">
-              <a href="#">Доставка</a>
-            </li>
-            <li class="main-menu-item">
-              <a href="#">Гарантия</a>
-            </li>
-            <li class="main-menu-item">
-              <a href="#">Контакты</a>
-            </li>
-          </ul>
+          <div class="main-menu">
+            <ul class="header-service">
+              <li class="header-service-item">
+                <a href="#">Доставка</a>
+              </li>
+              <li class="header-service-item">
+                <a href="#">Гарантия</a>
+              </li>
+            </ul>
+            <ul class="header-info">
+              <li class="header-info-item">
+                <a href="#">Контакты</a>
+              </li>
+            </ul>
+          </div>
         </nav>
       </header>
     </div>

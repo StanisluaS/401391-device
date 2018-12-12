@@ -17,20 +17,24 @@
             <input class="search-site" type="search" id="search" name="search-site" placeholder="Поиск по сайту">
             <button class="button-search" type="submit" name="button-search">Найти</button>
           </form>
-          <ul class="navigation-header">
-            <li class="user-name">
-              <a class="name-link" href="#">Валентин Петухов</a>
-            </li>
-            <li class="user-exit">
-              <a class="exit-link" href="#">Выйти</a>
-            </li>
-            <li class="compare">
-              <a class="compare-link" href="#">Сравнить</a>
-            </li>
-            <li class="basket">
-              <a class="basket-link" href="#">Корзина</a>
-            </li>
-          </ul>
+          <div class="navigation-header">
+            <ul class="navigation-user-list">
+              <li class="user-name">
+                <a class="name-link" href="#">Валентин Петухов</a>
+              </li>
+              <li class="user-exit">
+                <a class="exit-link" href="#">Выйти</a>
+              </li>
+            </ul>
+            <ul class="product-selection">
+              <li class="compare">
+                <a class="compare-link" href="#">Сравнить</a>
+              </li>
+              <li class="basket">
+                <a class="basket-link" href="#">Корзина</a>
+              </li>
+            </ul>
+          </div>
         </div>
         <nav class="main-navigation">
           <ul class="main-catalog">
@@ -64,17 +68,21 @@
               </div>
             </li>
           </ul>
-          <ul class="main-menu">
-            <li class="main-menu-item">
-              <a href="#">Доставка</a>
-            </li>
-            <li class="main-menu-item">
-              <a href="#">Гарантия</a>
-            </li>
-            <li class="main-menu-item">
-              <a href="#">Контакты</a>
-            </li>
-          </ul>
+          <div class="main-menu">
+            <ul class="header-service">
+              <li class="header-service-item">
+                <a href="#">Доставка</a>
+              </li>
+              <li class="header-service-item">
+                <a href="#">Гарантия</a>
+              </li>
+            </ul>
+            <ul class="header-info">
+              <li class="header-info-item">
+                <a href="#">Контакты</a>
+              </li>
+            </ul>
+          </div>
         </nav>
       </header>
     </div>
