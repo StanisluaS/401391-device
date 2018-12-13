@@ -2127,7 +2127,7 @@ font-size: 0;
 
   cursor: pointer;
 
-  transition: all 0.3;
+  transition: all 0.3s;
 }
 
 .feedback-close::after,
@@ -2162,7 +2162,7 @@ font-size: 0;
 .btn-big-map:hover {
   opacity: 1;
 
-  transition: all 0.3;
+  transition: all 0.3s;
 }
 
 .feedback-close:focus,
@@ -2171,7 +2171,7 @@ font-size: 0;
 
   opacity: 0.3;
 
-  transition: all 0.3;
+  transition: all 0.3s;
 }
 
 .feedback-form {
