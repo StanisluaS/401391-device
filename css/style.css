@@ -703,17 +703,15 @@ img {
 .btn-slider-control {
   position: relative;
 
+  display: block;
   margin: 0;
   padding: 0;
   width: 12px;
   height: 12px;
   box-sizing: border-box;
 
-  background: none;
   border: 1px solid #000000;
   border-radius: 50%;
-
-  cursor: pointer;
 }
 
 .slider-control-active .btn-slider-control::before {
@@ -2286,29 +2284,17 @@ font-size: 0;
   0% {
     transform: scale(0);
   }
-
-  20% {
-    transform: scale(25%);
-  }
-
-  40% {
-    transform: scale(50%);
-  }
-
-  60% {
-    transform: scale(75%);
-  }
-
-  80% {
-    transform: scale(100%);
-  }
-
-  90% {
-    transform: scale(110%);
-  }
-
   100% {
     transform: scale(100%);
+  }
+}
+
+@keyframes emergenceReverse {
+  0% {
+    transform: scale(100%);
+  }
+  100% {
+    transform: scale(0);
   }
 }
 
