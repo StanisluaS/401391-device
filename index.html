@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&amp;subset=cyrillic" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/minStyle.css" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
   </head>
   <body>
@@ -92,7 +92,7 @@
           <ul class="slider-list">
             <li class="slider-item  slider-active">
               <p class="slider-img">
-                <img src="img/slider-1.png" width="384" height="486" alt="Самая длинная палка для селфи">
+                <img src="img/slider-1.png" width="526" height="496" alt="Самая длинная палка для селфи">
               </p>
               <div class="slider-wrapper">
                 <span class="number">01</span>
@@ -116,7 +116,7 @@
             </li>
             <li class="slider-item">
               <p class="slider-img">
-                <img src="img/slider-2.png" width="385" height="485" alt="Мотивирующий фитнес-браслет">
+                <img src="img/slider-2.png" width="526" height="496" alt="Мотивирующий фитнес-браслет">
               </p>
               <div class="slider-wrapper">
                 <span class="number">02</span>
@@ -136,7 +136,7 @@
             </li>
             <li class="slider-item">
               <p class="slider-img">
-                <img src="img/slider-3.png" width="526" height="324" alt="Мотивирующий фитнес-браслет">
+                <img src="img/slider-3.png" width="526" height="496" alt="Мотивирующий фитнес-браслет">
               </p>
               <div class="slider-wrapper">
                 <span class="number">03</span>
@@ -159,19 +159,19 @@
           </ul>
 		      <ul class="control-list">
             <li class="control-item slider-control-active">
-              <a class="btn-slider-control" href="#">
+              <button class="btn-slider-control" href="#">
                 <span class="visually-hidden">Слайд 1</span>
-              </a>
+              </button>
             </li>
             <li class="control-item">
-              <a class="btn-slider-control" href="#">
+              <button class="btn-slider-control" href="#">
                 <span class="visually-hidden">Слайд 2</span>
-              </a>
+              </button>
             </li>
             <li class="control-item">
-              <a class="btn-slider-control" href="#">
+              <button class="btn-slider-control" href="#">
                 <span class="visually-hidden">Слайд 3</span>
-              </a>
+              </button>
             </li>
           </ul>
         </section>
@@ -218,17 +218,13 @@
           </ul>
           <ul class="service-switch">
             <li class="switch-item switch-active">
-              <button class="btn btn-switch" type="button">Доставка</button>
+              <button class="btn btn-switch" type="button"><span class="visually-hidden">Слайд 1 </span>Доставка</button>
             </li>
             <li class="switch-item">
-              <button class="btn btn-switch" type="button">
-              Гарантия
-              </button>
+              <button class="btn btn-switch" type="button"><span class="visually-hidden">Слайд 2 </span>Гарантия</button>
             </li>
             <li class="switch-item">
-              <button class="btn btn-switch" type="button">
-              Кредит
-              </button>
+              <button class="btn btn-switch" type="button"><span class="visually-hidden">Слайд 3 </span>Кредит</button>
             </li>
           </ul>
 	      </div>
@@ -352,7 +348,6 @@
       <img src="img/big-map.jpg" width="960" height="559" alt="Адрес магазина Девайс: город Москва, улица Строителей, дом 15">
       <button class="btn-big-map" type="button"><span class="visually-hidden">Закрыть карту</span></button>
     </div>
-	<script src="./js/switchSlide.js"></script>
-    <script src="./js/openPopup.js"></script>    
+    <script src="./js/minOpenPopup.js"></script>
   </body>
 </html>
