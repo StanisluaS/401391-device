@@ -31,12 +31,7 @@
  var onMouseDownPinDrag = function (evt) {
   evt.preventDefault();
   var target = evt.target;
-  var el = null;
-  for (var i = 0; i < target.children.length; i++) {
-    if(target.children[i].className === 'text') {
-      el = target.children[i];
-    }
-  }
+  var el = target.firstElementChild;  
   var result = null;
   var startCoords = evt.clientX;
 
