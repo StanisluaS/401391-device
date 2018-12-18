@@ -2,9 +2,9 @@
 
 (function () {
 
-   
+
   if(document.querySelector('.monopods')) {
-	
+	// ползунок на странице каталога
     var FACTOR = 5000 / 110;
     var cost = document.querySelector('.min-max');
     var costWidth = cost.clientWidth;
@@ -33,7 +33,7 @@
     var onMouseDownPinDrag = function (evt) {
       evt.preventDefault();
       var target = evt.target;
-      var el = target.firstElementChild;  
+      var el = target.firstElementChild;
       var result = null;
       var startCoords = evt.clientX;
 
@@ -104,8 +104,8 @@
     var serviceSwitch = document.querySelector('.service-switch');
     var serviceDescription = document.querySelector('.service-description');
     var switchs = serviceSwitch.querySelectorAll('.btn-switch');
-    var descriptionItem = serviceDescription.querySelectorAll('.description-item');  
-  
+    var descriptionItem = serviceDescription.querySelectorAll('.description-item');
+
   // переключение слайдов
 
     var switchSlide = function (evt) {
@@ -134,12 +134,11 @@
   // проверка на валидность формы
 
     var makeCheck = function (evt) {
-	  evt.preventDefault();
-      if (!name.value || !email.value || !message.value) {
-	    var widthFeedback = feedback.offsetWidth;
+	    if (!name.value || !email.value || !message.value) {
         evt.preventDefault();
-	    feedback.classList.remove('modal-error');
-	    widthFeedback = feedback.offsetWidth;
+	      var widthFeedback = feedback.offsetWidth;
+	      feedback.classList.remove('modal-error');
+	      widthFeedback = feedback.offsetWidth;
         feedback.classList.add('modal-error');
       } else {
         localStorage.setItem("login", name.value);
@@ -230,6 +229,6 @@
     btnContacts.addEventListener('keydown', openPopup);
     controlList.addEventListener('click', switchSlide);
     serviceSwitch.addEventListener('click', switchSlide);
-  }  
+  }
 
 })();
