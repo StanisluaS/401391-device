@@ -12,7 +12,7 @@
       <header class="main-header">
         <a class="logo" href="index.html">DEVICE</a>
         <div class="header-row">
-          <form class="form-search" action="#" method="post">
+          <form class="form-search" action="https://echo.htmlacademy.ru" method="post">
             <p class="search-site">
               <label class="visually-hidden" for="search">Поиск по сайту</label>
               <input class="search" type="search" id="search" name="search" placeholder="Поиск по сайту">
@@ -39,8 +39,8 @@
           </div>
         </div>
         <nav class="main-navigation">
-          <ul class="main-catalog">
-            <li class="main-catalog-item catalog">
+          <ul class="main-menu">
+            <li class="main-menu-item catalog">
               <a href="catalog.html">Каталог товаров</a>
               <div class="catalog-column">
                 <ul class="catalog-menu">
@@ -48,7 +48,7 @@
                     <a href="#">Виртуальная реальность</a>
                   </li>
                   <li class="catalog-menu-item">
-                    <a>Моноподы для селфи</a>
+                    <a href="catalog-monopods.html">Моноподы для селфи</a>
                   </li>
                   <li class="catalog-menu-item">
                     <a href="#">Экшн-камеры</a>
@@ -69,22 +69,16 @@
                 </ul>
               </div>
             </li>
+            <li class="main-menu-item">
+              <a href="#">Доставка</a>
+            </li>
+            <li class="main-menu-item">
+              <a href="#">Гарантия</a>
+            </li>
+            <li class="main-menu-item">
+              <a href="#">Контакты</a>
+            </li>
           </ul>
-          <div class="main-menu">
-            <ul class="header-service">
-              <li class="header-service-item">
-                <a href="#">Доставка</a>
-              </li>
-              <li class="header-service-item">
-                <a href="#">Гарантия</a>
-              </li>
-            </ul>
-            <ul class="header-info">
-              <li class="header-info-item">
-                <a href="#">Контакты</a>
-              </li>
-            </ul>
-          </div>
         </nav>
       </header>
     </div>
@@ -97,34 +91,10 @@
           <li class="breadcrumbs-item breadcrumbs-active">Моноподы для селфи</li>
         </ul>
       </div>
-      <section class="sorting-product">
-        <div class="container">
-          <h3>Сортировка:</h3>
-          <ul class="sorting">
-            <li class="sorting-price sorting-active">
-              <a href="#">По цене</a>
-            </li>
-            <li class="sorting-type">
-              <a href="#">По типу</a>
-            </li>
-            <li class="sorting-popularity">
-              <a href="#">По популярности</a>
-            </li>
-          </ul>
-          <ul class="sorting-seriatim">
-            <li class="sorting-ascending">
-             <a href="#"><span class="visually-hidden">По убыванию</span></a>
-            </li>
-            <li class="sorting-descending sorting-seriatim-active">
-              <a href="#"><span class="visually-hidden">По возрастанию</span></a>
-            </li>
-          </ul>
-        </div>
-      </section>
       <div class="monopods-column">
         <div class="container">
           <section class="filter-product">
-            <h3 class="visually-hidden">Фильтр:</h3>
+            <h3>Фильтр:</h3>
             <form class="filter" action="https://echo.htmlacademy.ru" method="post">
               <div class="filter-item">
                 <h4 class="filter-title">Стоимость</h4>
@@ -180,6 +150,28 @@
             </form>
           </section>
           <div class="left-column">
+            <section class="sorting-product">
+              <h3>Сортировка:</h3>
+              <ul class="sorting">
+                <li class="sorting-price sorting-active">
+                  <a href="#">По цене</a>
+                </li>
+                <li class="sorting-type">
+                  <a href="#">По типу</a>
+                </li>
+                <li class="sorting-popularity">
+                  <a href="#">По популярности</a>
+                </li>
+              </ul>
+              <ul class="sorting-seriatim">
+                <li class="sorting-ascending">
+                 <a href="#"><span class="visually-hidden">По убыванию</span></a>
+                </li>
+                <li class="sorting-descending sorting-seriatim-active">
+                  <a href="#"><span class="visually-hidden">По возрастанию</span></a>
+                </li>
+              </ul>
+            </section>
             <section class="catalog-monopod">
               <h2 class="visually-hidden">Каталог моноподов</h2>
               <ul class="monopod-items">
