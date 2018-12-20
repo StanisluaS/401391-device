@@ -13,6 +13,20 @@
     var lineGreen = cost.querySelector('.line-green');
     var inputMin = cost.querySelector('input[name="min"]');
     var inputMax = cost.querySelector('input[name="max"]');
+	
+	var resetInputValue = function (element) {
+	  switch (element.name) {
+		case 'min':
+		  element.value = 0;
+		  break;
+		case 'max':
+		  element.value = 5000;
+		  break;
+	  }
+	};
+	
+	resetInputValue(inputMin);
+	resetInputValue(inputMax);
 
     var setRangeValue = function (target, element, val) {
       target.style.left = val + 'px';
