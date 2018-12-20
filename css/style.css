@@ -192,11 +192,6 @@ img {
   margin-bottom: 31px;
 }
 
-.form-search {
-  width: 440px;
-  padding-right: 85px;
-}
-
 .search-site {
   position: relative;
 
@@ -221,8 +216,8 @@ img {
 .search {
   padding: 9.5px 0;
   padding-left: 40px;
-  padding-right: 20px;
-  width: 355px;
+  padding-right: 105px;
+  width: 440px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 
@@ -1958,7 +1953,7 @@ img {
 }
 
 .sorting-product {
-  margin-bottom: 63px;
+  margin-bottom: 69px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2128,8 +2123,7 @@ font-size: 0;
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding-top: 6px;
-  margin-bottom: 40px;
+  margin-bottom: 46px;
   width: 360px;
 }
 
