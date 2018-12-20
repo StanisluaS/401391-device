@@ -2029,6 +2029,8 @@ img {
 
 .sorting-seriatim {
 margin-left: auto;
+-ms-flex-negative: 0;
+    flex-shrink: 0;
 
 font-size: 0;
 }
