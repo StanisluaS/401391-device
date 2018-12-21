@@ -221,10 +221,13 @@ img {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 
-  font: inherit;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
   color: #000000;
-  letter-spacing: inherit;
-
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  
   background-color: transparent;
   border: none;
   opacity: 0.3;
