@@ -14,6 +14,7 @@
 
 body {
   margin: 0;
+  min-width: 1200px;
 
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 15px;
@@ -953,12 +954,6 @@ img {
 
 .service {
   margin-bottom: 94px;
-
-  background-image: -webkit-linear-gradient(top, transparent 0, transparent 100px, #e5e5e5 100px, #e5e5e5 100%);
-
-  background-image: -o-linear-gradient(top, transparent 0, transparent 100px, #e5e5e5 100px, #e5e5e5 100%);
-
-  background-image: linear-gradient(to bottom, transparent 0, transparent 100px, #e5e5e5 100px, #e5e5e5 100%);
 }
 
 .service .container {
@@ -1286,8 +1281,6 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-
-  background-color: #464646;
 }
 
 .footer-top,
