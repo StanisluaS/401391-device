@@ -455,11 +455,11 @@ img {
 }
 
 
-.main-menu a:hover {
+.main-menu a[href]:hover {
   color: rgba(0, 0, 0, 0.6);
 }
 
-.main-menu a:active {
+.main-menu a[href]:active {
   color: rgba(0, 0, 0, 0.3);
 }
 
@@ -564,12 +564,12 @@ img {
   color: #000000;
 }
 
-.catalog-menu a:hover {
-  opacity: 0.6;
+.catalog-menu a[href]:hover {
+  color: rgba(0, 0, 0, 0.6);
 }
 
-.catalog-menu a:active{
-  opacity: 0.3;
+.catalog-menu a[href]:active{
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .catalog-menu:first-child {
